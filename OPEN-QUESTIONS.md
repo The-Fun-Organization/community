@@ -57,7 +57,7 @@ Each resolved item references the design doc section where the decision is refle
 8. **The mobile app** — validation layer depends on an app not yet designed; offline/low-connectivity required
 9. **LA_Restriction / LA_Responsibility representation** — liens, easements, conservation restrictions, and tax obligations now have a named category (Section 21.4); on-chain representation (separate token types vs. NFT metadata fields vs. other) TBD
 10. **3D spatial unit design** — LADM Edition II Part 5 confirms the need (Section 21.5); Landos's own hectare-meter unit design remains deferred
-11. **Land Witness capacity for the Independent Claimant Path** — requiring two independent Land Witnesses (Section 11.6) assumes enough Land Witnesses exist per hub to cover claimants with no social graph; how Land Witnesses are recruited/trained at scale is still open
+11. **Land Witness capacity for the Independent Claimant Path** — requiring two independent Land Witnesses (Section 11.6) assumes enough Land Witnesses exist per hub to cover claimants with no social graph; how Land Witnesses are recruited/trained at scale is still open. Working direction (not yet specced): assignment, not search — eligible pool = hub members above a standing threshold who opt into an on-call roster; random draw filtered by Interested Party Exclusion (applied pairwise for the two-witness case); non-response reassigns rather than penalizes; shortfalls escalate to overlapping/adjacent hubs; pool eligibility bar starts low and rises with hub maturity, same soft-threshold pattern as validator bootstrapping. To be revisited during testing.
 
 ---
 
